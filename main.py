@@ -5,6 +5,7 @@ from ListaOrdenacao.InsertSort import InsertionSort
 from ListaOrdenacao.Merge_Sort import MergeSort
 from ListaOrdenacao.QuickSort import Quick_Sort
 from ListaOrdenacao.SelectionSort import SelectionSort
+from ListaOrdenacao.ShellSort import shell_Sort
 
 if __name__ == '__main__':
     try:
@@ -31,7 +32,11 @@ if __name__ == '__main__':
             f = Quick_Sort(lp)
             print("\nLista ordenada por Quick Sort: ")
             print(f.quick_sort())
+        elif op == 6:
+            g = shell_Sort(lp)
+            print("\nLista ordenada por Shell Sort: ")
+            print(g.shell_sort())
     except ValueError:
-        print("Opção Não Encontrada!")
+        print("Opção Não Encontrada")
 
 
