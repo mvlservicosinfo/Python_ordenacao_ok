@@ -1,11 +1,7 @@
-import random
-
-
+#Bubble Sort
 class ordnance_BubbleSort():
     def __init__(self, lista):
         self.lista = lista
-
-
 
     def BubbleSeort(self):
         n = len(self.lista)

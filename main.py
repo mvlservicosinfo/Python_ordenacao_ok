@@ -2,6 +2,7 @@ import random
 
 from ListaOrdenacao.BubbleSort import ordnance_BubbleSort
 from ListaOrdenacao.InsertSort import InsertionSort
+from ListaOrdenacao.Merge_Sort import MergeSort
 from ListaOrdenacao.SelectionSort import SelectionSort
 
 if __name__ == '__main__':
@@ -21,3 +22,9 @@ if __name__ == '__main__':
         d = SelectionSort(lp)
         print("\nLista ordenada por Selection Sort: ")
         print(d.selection_sort())
+    elif op == 4:
+        e = MergeSort(lp)
+        print("\nLista ordenada por Merge Sort: ")
+        print(e.mergeSort())
+
+

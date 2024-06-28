@@ -1,3 +1,4 @@
+#Insertion Sort
 class InsertionSort:
     def __init__(self, lista):
         self.lista = lista
