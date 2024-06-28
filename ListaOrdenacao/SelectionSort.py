@@ -2,12 +2,6 @@ class SelectionSort(object):
     def __init__(self, lista):
         self.lista = lista
 
-    def __get_lista(self):
-        return self.lista
-
-    def __set_lista(self, lista):
-        self.lista = lista
-
     def selection_sort(self):
         if not self.lista:
             return self.lista
