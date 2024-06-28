@@ -1,5 +1,5 @@
 #Bubble Sort
-class ordnance_BubbleSort():
+class ordenance_BubbleSort():
     def __init__(self, lista):
         self.lista = lista
 
